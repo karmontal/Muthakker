@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_gravity="center_horizontal">
+
+        <ScrollView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:id="@+id/scrollView2"
+            android:layout_centerHorizontal="true" >
+
+            <TableLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:weightSum="2">
+
+                    <ImageButton
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="150dp"
+                        android:layout_gravity="left"
+                        android:src="@drawable/pmon"
+                        android:id="@+id/imgButtonMasaa"
+                        android:scaleType="fitCenter" />
+
+                    <ImageButton
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="150dp"
+                        android:layout_gravity="right"
+                        android:src="@drawable/amon"
+                        android:id="@+id/imgButtonSabah"
+                        android:scaleType="fitCenter" />
+                </LinearLayout>
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:weightSum="2">
+
+                    <ImageButton
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="150dp"
+                        android:layout_gravity="left"
+                        android:src="@drawable/pmon"
+                        android:id="@+id/imgButtonNotSettings"
+                        android:scaleType="fitCenter" />
+
+                    <ImageButton
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="150dp"
+                        android:layout_gravity="right"
+                        android:src="@drawable/amon"
+                        android:id="@+id/imgButtonMore"
+                        android:scaleType="fitCenter" />
+                </LinearLayout>
+
+
+            </TableLayout>
+        </ScrollView>
+    </RelativeLayout>
+</LinearLayout>

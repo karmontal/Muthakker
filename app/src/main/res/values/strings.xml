@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Muthakker</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="MinutsBetweenDuaa">عدد الدقائق بين الأدعية</string>
+    <string name="SabahAlarm">وقت منبه أذكار الصباح</string>
+    <string name="MasaaAlarm">وقت منبه أذكار المساء</string>
+    <string name="Akar">الأذكار</string>
+    <string name="Save">حفظ</string>
+    <string name="Share">مشاركة</string>
+    <string name="DuaaForUs">لا تنسونا من دعائكم</string>
+    <string name="todo">TODO</string>
+</resources>

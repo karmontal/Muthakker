@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:id="@+id/imageView"
+            android:src="@drawable/bg"
+            android:scaleType="centerCrop" />
+
+        <ImageButton
+            android:layout_width="60dp"
+            android:layout_height="100dp"
+            android:id="@+id/amimageButton"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:scaleType="centerCrop"
+            android:background="@drawable/amoff" />
+        <ImageButton
+            android:layout_width="60dp"
+            android:layout_height="100dp"
+            android:id="@+id/pmimageButton"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:scaleType="centerCrop"
+            android:background="@drawable/pmoff" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="أذكار الصباح"
+            android:textSize="40dp"
+            android:gravity="center"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/thekrTypText" />
+        <ScrollView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_below="@+id/thekrTypText"
+            android:layout_above="@+id/thekrButton">
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:textSize="22dp"
+                android:gravity="center_horizontal"
+                android:id="@+id/thekrText"
+                android:padding="40dp"
+                />
+        </ScrollView>
+
+
+        <Button
+            android:layout_width="180dp"
+            android:layout_height="140dp"
+            android:text="0  /  0"
+            android:id="@+id/thekrButton"
+            android:layout_alignParentBottom="true"
+            android:layout_centerInParent="true"
+            android:textSize="30dp"/>
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="90dp"
+            android:text="التالي"
+            android:id="@+id/nextthekrButton"
+            android:layout_alignParentBottom="true"
+            android:layout_toRightOf="@+id/thekrButton"
+            android:layout_alignParentRight="true"/>
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="90dp"
+            android:text="السابق"
+            android:id="@+id/prevthekrButton"
+            android:layout_alignParentBottom="true"
+            android:layout_toLeftOf="@+id/thekrButton"
+            android:layout_alignParentLeft="true"/>
+
+    </RelativeLayout>
+
+
+</LinearLayout>
